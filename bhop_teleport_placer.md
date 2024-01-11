@@ -1,6 +1,6 @@
 # Automatic trigger_teleport placer for bhop stages
 
-Select the brush where the stage starts and the brush where the teleport will go, convert them into a custom entity like 'kz_bhop_stage', save the map, and run the script.
+Select the brush where the stage starts and the brush where the teleport will go, convert them into a custom entity like 'kz_bhop_stage', save the map and then run the script.
 
 | First Stage  | 
 | ------------- |
