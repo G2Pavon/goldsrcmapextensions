@@ -32,7 +32,7 @@ start             |
 
 When NOT use:
 
-NOT use when the start is lower than end of the stage and the teleport floor rises than start heigth:
+NOT use when the start is lower than teleport floor:
 
                           end
                        =======
