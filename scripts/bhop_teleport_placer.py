@@ -43,7 +43,7 @@ start           _______|
 
 TODO:
 - Auto-set the destination angle: Currently not implemented. Consider using the vector from trigger.origin to destination.origin to get an approximate angle.
-
+- Change teleport thickness
 """
 import goldsrcmap as gsm
 
