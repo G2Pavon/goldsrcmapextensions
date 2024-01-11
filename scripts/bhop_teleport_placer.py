@@ -85,7 +85,7 @@ for entity in m:
                     destination.properties = {
                         "classname": "info_teleport_destination",
                         "targetname": f"tele{i}",
-                        "origin": f"{brush.origin.x} {brush.origin.y} {brush.origin.z + max_z + DESTINATION_HEIGHT}" 
+                        "origin": f"{brush.origin.x} {brush.origin.y} {brush.origin.z + DESTINATION_HEIGHT}" 
                     }
 
         # Add trigger and destination to map
