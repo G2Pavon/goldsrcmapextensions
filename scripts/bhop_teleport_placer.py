@@ -1,6 +1,7 @@
 # bhop_teleport_placer.py
 """
 Automatic teleport placer for bhop stages.
+https://github.com/G2Pavon/goldsrcmapextensions/blob/main/bhop_teleport_placer.md
 
 When use:
 
