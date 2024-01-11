@@ -4,14 +4,14 @@ Automatic teleport placer for bhop stages.
 
 When use:
 
-1. The start is in same height that end stage:
+1. The start is at same height as the end of the stage:
 
 start                     end        
 =====                   ========
     |                   |                    
     |___________________|                
 
-2. The start is higher than end stage:
+2. The start is higher than end of the stage:
 
 start                      
 =====                 
@@ -20,7 +20,7 @@ start
     |_____________________|       
 
     
-3. The start is lower than end stage and the floor is flat:
+3. The start is lower than end of the stage and the teleport floor is flat:
 
                     end
                   ======
@@ -31,7 +31,7 @@ start             |
 
 When NOT use:
 
-NOT use when the start is lower than end stage and the teleport floor rises than start heigth:
+NOT use when the start is lower than end of the stage and the teleport floor rises than start heigth:
 
                           end
                        =======
