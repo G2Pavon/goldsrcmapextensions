@@ -50,7 +50,7 @@ import goldsrcmap as gsm
 
 INPUT = '/path/to/your.map'
 OUTPUT = '/path/to/your.map'
-TP_DESTINATION_HEIGHT = 64  #Change it according to your needs
+DESTINATION_HEIGHT = 64  #Change it according to your needs
 TP_FLOOR_HEIGHT = 16 #Change it according to your needs
 CUSTOM_ENTITY = 'kz_bhop_stage' # You can use a custom classname
 
@@ -85,7 +85,7 @@ for entity in m:
                     destination.properties = {
                         "classname": "info_teleport_destination",
                         "targetname": f"tele{i}",
-                        "origin": f"{brush.origin.x} {brush.origin.y} {brush.origin.z + TP_DESTINATION_HEIGHT}" 
+                        "origin": f"{brush.origin.x} {brush.origin.y} {brush.origin.z + max_z + DESTINATION_HEIGHT}" 
                     }
 
         # Add trigger and destination to map
