@@ -35,4 +35,11 @@
 ![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/21da36b0-bfe9-4650-a89c-cec2051778fd)
 
 # After
+![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/e3431b2c-5f8e-4114-aab2-f842ad718280)
+![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/b22cd0bf-98cc-4d23-8721-96a446a1397f)
+
+
+# CODE
+
+https://github.com/G2Pavon/goldsrcmapextensions/blob/main/scripts/bhop_teleport_placer.py
 
