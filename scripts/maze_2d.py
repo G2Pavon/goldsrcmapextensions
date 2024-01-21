@@ -1,5 +1,5 @@
 """
-stolen from:
+Original script from vmflib:
 https://github.com/BHSPitMonkey/vmflib/blob/master/examples/maze.py
 """
 
