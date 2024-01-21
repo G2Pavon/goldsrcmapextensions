@@ -52,8 +52,6 @@ def maze_2d(width, height, complexity, density):
 
 maze = maze_2d(ROWS-1, COLUMNS-1, MAZE_COMPLEXITY, MAZE_DENSITY)
 
-m = gsm.Map()
-
 blocks = []
 for i in range(ROWS-1):
     for j in range(COLUMNS-1):
@@ -65,6 +63,7 @@ for i in range(ROWS-1):
 
 floor = gsm.BrushGenerator.cuboid(-MAZE_WIDTH, -MAZE_WIDTH, FLOOR_THICKNESS, position=[0, 0, -FLOOR_THICKNESS], center=True)
 
+m = gsm.Map()
 m.add_brush(floor, *blocks)
 
 gsm.save_map(m, 'maze.map')
