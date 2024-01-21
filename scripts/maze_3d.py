@@ -23,9 +23,10 @@ def maze_3d(width, length, height, complexity, density):
     density = int(density * (shape[0] // 2 * shape[1] // 2 * shape[2] // 2))
 
     maze_tensor = numpy.zeros(shape, dtype=bool)
-    maze_tensor[0, :, :] = maze_tensor[-1, :, :] = 1
-    maze_tensor[:, 0, :] = maze_tensor[:, -1, :] = 1
-    maze_tensor[:, :, 0] = maze_tensor[:, :, -1] = 1
+    #EXTERIOR WALLS
+    #maze_tensor[0, :, :] = maze_tensor[-1, :, :] = 1
+    #maze_tensor[:, 0, :] = maze_tensor[:, -1, :] = 1
+    #maze_tensor[:, :, 0] = maze_tensor[:, :, -1] = 1
 
     for _ in range(density):
         x, y, z = (
@@ -58,8 +59,13 @@ blocks_3d = []
 for i in range(ROWS - 1):
     for j in range(COLUMNS - 1):
         for k in range(LEVELS - 1):
-            if i != 0 and j != 0 and k != 0:
-                if maze[i][j][k]:
+            #This only work when ROWS == COLUMNS == LEVELS:
+            #if i != 0 and j != 0 and k != 0:
+
+            # This works also when ROWS != COLUMNS != LEVELS:
+            if 0 <= i < maze.shape[0] - 1 and 0 <= j < maze.shape[1] - 1 and 0 <= k < maze.shape[2] - 1:
+                if maze[i, j, k]: 
+                #if maze[i][j][k]:
                     x = (i * MAZE_BLOCK_SIZE) - (MAZE_WIDTH / 2) + (MAZE_BLOCK_SIZE / 2)
                     y = (j * MAZE_BLOCK_SIZE) - (MAZE_HEIGHT / 2) + (MAZE_BLOCK_SIZE / 2)
                     z = (k * MAZE_BLOCK_SIZE) - (MAZE_DEPTH / 2) + (MAZE_BLOCK_SIZE / 2)
