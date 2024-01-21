@@ -26,5 +26,4 @@
 ---
 |`MAZE_BLOCK_SIZE = 256` `ROWS = 32` `COLUMNS = 32` `LEVELS = 32` `COMPLEXITY = 0.005` `DENSITY = 100` <br>map size result = 7680x7680x7680|
 |--|
-|![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/91ffcce2-88a2-4501-af78-d6d44949f019)
-|
+|![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/91ffcce2-88a2-4501-af78-d6d44949f019) |
