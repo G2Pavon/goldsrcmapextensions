@@ -18,7 +18,7 @@ MAZE_COMPLEXITY = 10
 MAZE_DENSITY = 10
 FLOOR_THICKNESS = 64
 
-def maze2D_generator(width, height, complexity, density):
+def maze_2d(width, height, complexity, density):
     shape = ((height // 2) * 2 + 1, (width // 2) * 2 + 1)
 
     complexity = int(complexity * (5 * (shape[0] + shape[1])))
@@ -50,7 +50,7 @@ def maze2D_generator(width, height, complexity, density):
                     x, y = neighbour_x, neighbour_y
     return maze_matrix
 
-maze = maze2D_generator(ROWS-1, COLUMNS-1, MAZE_COMPLEXITY, MAZE_DENSITY)
+maze = maze_2d(ROWS-1, COLUMNS-1, MAZE_COMPLEXITY, MAZE_DENSITY)
 
 m = gsm.Map()
 
