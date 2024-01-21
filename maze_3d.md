@@ -11,3 +11,8 @@
 |`MAZE_BLOCK_SIZE = 256` `ROWS = 32` `COLUMNS = 32` `LEVELS = 32` `COMPLEXITY = 0.05` `DENSITY = 0.02` <br>map size result = 7680x7680x7680|
 |--|
 |![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/d8f24ce5-8097-4dd0-a078-1e59772ef2d3) |
+
+---
+|`MAZE_BLOCK_SIZE = 256` `ROWS = 32` `COLUMNS = 32` `LEVELS = 32` `COMPLEXITY = 100` `DENSITY = 0.0003` <br>map size result = 3840x7424x6144|
+|--|
+| ![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/3b7a4a2b-44f0-481a-9589-f6bb2bfa0bb0)|
