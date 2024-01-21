@@ -47,7 +47,6 @@ def maze_2d(width, height, complexity, density):
                 if maze_matrix[neighbour_y, neighbour_x] == 0:
                     maze_matrix[neighbour_y, neighbour_x] = 1
                     maze_matrix[neighbour_y + (y - neighbour_y) // 2, neighbour_x + (x - neighbour_x) // 2] = 1
-                    x, y = neighbour_x, neighbour_y
     return maze_matrix
 
 maze = maze_2d(ROWS-1, COLUMNS-1, MAZE_COMPLEXITY, MAZE_DENSITY)
