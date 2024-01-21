@@ -1,3 +1,11 @@
+# CODE
+https://github.com/G2Pavon/goldsrcmapextensions/blob/main/scripts/maze_3d.py
+
+The structure is constructed with only cubes, so it is not optimized.
+![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/67781ec5-2f6d-48f5-a9c9-84d4934f71c0)
+
+# Examples
+
 |`MAZE_BLOCK_SIZE = 256` `ROWS = 32` `COLUMNS = 32` `LEVELS = 32` `COMPLEXITY = 1` `DENSITY = 1` <br>map size result = 7680x7680x7680|
 |--|
 | ![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/7152971d-2449-417e-a180-793a536d77fa)|
