@@ -1,6 +1,10 @@
 # CODE
 https://github.com/G2Pavon/goldsrcmapextensions/blob/main/scripts/maze_2d.py
 
+The structure is constructed with only cubes, so it is not optimized.
+![image](https://github.com/G2Pavon/goldsrcmapextensions/assets/14117486/51f23d81-fae8-4458-8b63-1869e54b34ac)
+
+
 # Examples
 With `MAZE_BLOCK_SIZE = 64` `ROWS = 126` `COLUMNS = 126` <br> Map size result: 8000x8000x160 
 
